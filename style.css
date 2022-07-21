@@ -32,3 +32,32 @@ header > nav{
     color: #ffffff;
     background-color: #19B9F6;
  }
+ #pj1{
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "img txt";
+ }
+ h2{
+    grid-area: title;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+ }
+ #img1{
+    grid-area: img;
+    width: 450px;
+    height: 250px;
+ }
+ #txt1{
+    font-family: cursive; 
+    font-size: 20px; 
+    grid-area: txt;
+    padding: 10px 30px;
+ }
+ #txt1 > ul{
+   font-size: 15px;
+ }
