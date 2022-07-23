@@ -50,7 +50,9 @@ main{
     padding-top: 5px;
 }
 .P1{
-    width: 550px;
+    max-width: 600px;
+    padding: 10px;
+    margin: 0px 10px;
     margin: auto;
     background-color: #ffff;
 }
@@ -58,7 +60,23 @@ main{
     font-family: 'Press Start 2P', cursive;
     padding: 10px 10px;
     font-size: 1.0em;
+    color: #E05500;
 }
 .P1 > p{
     text-align: justify;
+    text-indent: 30px;
+    padding: 0px 15px;
+}
+
+.P1 > h3{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 10px;
+    font-size: .8em;
+    color: #E05500;
+    background-image: linear-gradient(to right, #e68345c2, #ffff);
+}
+img{
+    min-width: 150px;
+    margin: auto;
+    padding: 5px 20px;
 }
