@@ -48,13 +48,15 @@ main{
     background-color: #E68245;
     margin: 0px;
     padding-top: 5px;
+    padding-bottom: 10px;
 }
 .P1{
     max-width: 600px;
     padding: 10px;
-    margin: 0px 10px;
     margin: auto;
     background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px #000000bd;
 }
 .P1 > h2{
     font-family: 'Press Start 2P', cursive;
@@ -62,7 +64,7 @@ main{
     font-size: 1.0em;
     color: #E05500;
 }
-.P1 > p{
+p{
     text-align: justify;
     text-indent: 30px;
     padding: 0px 15px;
@@ -75,8 +77,44 @@ main{
     color: #E05500;
     background-image: linear-gradient(to right, #e68345c2, #ffff);
 }
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E05500;
+}
 img{
     min-width: 150px;
     margin: auto;
     padding: 5px 20px;
+}
+.V2{
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: #AD4200;
+}
+.V2 > iframe{
+    margin: auto;
+    padding: 10px 25px;
+}
+article{
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px 10px;
+    background-color: #E68245;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.534);
+}
+article > h3{
+    font-size: 1.5em;
+    background-color: #E05500;
+    color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 10px;
+}
+article > p{
+    padding-bottom: 15px;
+}
+footer{
+    background-color: #AD4200;
+    text-align: center;
+    color: #ffffff;
 }
